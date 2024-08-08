@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <style>
+        html {
+            background-color: #c9ddff;
+        }
+        h1, h2 {
+            color: #2b2d42;
+        }
+        p {
+            color: #9F4A54;
+        }
+        .list {
+            border: 4px solid;
+            border-color: #2b2d42;
+            background-color: #FFA69E;
+            padding: 4px;
+            border-radius: 4px;
+            color: #2B2D42;
+        } 
+        #first-list li:nth-child(3) {
+            border-color: #2b2d42;
+            border: 4px solid ;
+        margin-bottom: 1px;
+      }
+      
+      #first-list li:nth-child(even) {
+        background-color: #CEF9F2;
+      }
+      #second-list li:nth-child(odd) {
+        background-color: #CEF9F2;
+      }
+      #second-list li:nth-last-child(3) {
+        border-color: #2b2d42;
+        border: 4px solid ;
+        margin-bottom: 1px;
+    }
+
+    </style>
+</head>
+<body>
+    <h1>
+        My first website
+    </h1>
+    <p>
+        This is a website about learning to code in HTML and CSS.
+    </p>
+    <h2>
+        Learning HTML - The Basics of HTML
+        </h2>
+        <p>
+            HTML (Hypertext Markup Language) is the content on a webpage and consists of the following:
+        </p>
+        <ul class="list" id="first-list">
+            <li>
+    An opening tag
+    </li>
+    <li>
+        A closing tag
+    </li>
+    <li>
+       Some content
+    </li>
+        </ul>
+        <p>These three components make up an HTML element.</p>
+    <h2>
+        Learning CSS - The Basics of CSS
+    </h2>
+    <p>
+        CSS (Cascading Style Sheets) is the code that styles the content on the page and CSS consists of the following:
+    </p>
+    <ul class="list" id="second-list">
+        <li>
+            A selector
+        </li>
+        <li>
+            A property
+        </li>
+        <li>
+            A property value
+        </li>
+        <li>
+            A declaration
+        </li>
+    </ul>
+    <p>
+        These four components make up a CSS ruleset.
+    </p>
+</body>
+</html>
